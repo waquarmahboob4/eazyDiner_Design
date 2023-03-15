@@ -4,50 +4,50 @@ import axisImg from "../assets/gallery_img1.jpg";
 
 export default function AdditionalOffers({data}) {
   return (
-    <div>
+    
       
       
           <div className="card">
             
             <div className="card-container">
                 <div className="booking">
-                    <span>Table Bookings</span><br/>
-                    <span>Online Orders</span><br/>
-                    <span>Coupons Purchased</span>
+                    <a href='#1'  className="sidebarItems">Table Bookings</a><br/>
+                    <a href='#1'  className="sidebarItems">Online Orders</a><br/>
+                    <a href='#1'  className="sidebarItems">Coupons Purchased</a>
                     
-                    
+    
 
                 </div>
                 
                     
                 <hr/>
                 <div className="payment">
-                <span>Payments</span><br/>
-                    <span>PayEazy Transaction</span>
+                <a href='#1'  className="sidebarTitle">Payments</a><br/>
+                    <a href='#1'  className="sidebarItems active">PayEazy Transaction</a>
 
                 </div>
                 <hr/>
                 <div className="eazyRewards">
-                <span>Eazy Rewards</span><br/>
-                    <span>Refer & Earn</span><br/>
-                    <span>EazyPoints Summary</span><br/>
-                    <span>My Rewards</span><br/>
-                    <span>Giftcard</span>
+                <a href='#1'  className="sidebarItems sidebarTitle">Eazy Rewards</a><br/>
+                    <a href='#1'  className="sidebarItems">Refer & Earn</a><br/>
+                    <a href='#1'  className="sidebarItems">EazyPoints Summary</a><br/>
+                    <a href='#1'  className="sidebarItems">My Rewards</a><br/>
+                    <a href='#1'  className="sidebarItems">Giftcard</a>
 
 
                 </div>
                 <hr/>
-                <div className="details">
-                <span>My-Details</span><br/>
-                    <span>Manage Addresses</span><br/>
-                    <span>My Favourites</span><br/>
-                    <span>Review and Ratings</span><br/>
-                    <span>Uploaded Photos</span>
+                <div className="myDetails">
+                <a href='#1'  className="sidebarItems sidebarTitle">My-Details</a><br/>
+                    <a href='#1'  className="sidebarItems">Manage Addresses</a><br/>
+                    <a href='#1'  className="sidebarItems">My Favourites</a><br/>
+                    <a href='#1'  className="sidebarItems">Review and Ratings</a><br/>
+                    <a href='#1'  className="sidebarItems">Uploaded Photos</a>
 
                 </div>
                 <hr/>
                 <div className="logout">
-                <span>Logout</span>
+                <a href='#1'  className="sidebarItems">Logout</a>
 
                 </div>
 
@@ -56,6 +56,6 @@ export default function AdditionalOffers({data}) {
             </div>
         </div>
 
-    </div>
+    
   );
 }

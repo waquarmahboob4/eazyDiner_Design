@@ -1,0 +1,72 @@
+body {
+  background-color: #eeeeee;
+}
+
+
+.detailCard-container {
+  background-color: #ffff;
+  box-shadow: 1px 1px 1px 1px rgb(217 217 217);
+  transition: 0.3s;
+  position: relative;
+  border-radius: 8px;
+  margin: 0px 10px 20px 0px;
+  width: 100%;
+}
+
+.detailBox {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 6px;
+}
+
+.details {
+  padding: 0px 10px;
+  display: flex;
+}
+.detailText {
+  padding: 0px 20px;
+}
+.transactionDetails {
+  width: 73%;
+  margin: 0px 15px 0px 15px;
+}
+
+#detailTitle{
+  font-weight: bold;
+}
+
+.billAmount {
+  background-color: rgb(245 245 245);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 11px 34px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+
+#amount {
+  color: red;
+}
+
+#viewDetails {
+  color: rgb(114 148 207);
+}
+
+.transactionLocation,
+.transactionTime {
+  color: rgb(134 134 134);
+  font-weight: 500;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 50px;
+}
